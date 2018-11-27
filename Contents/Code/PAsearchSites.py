@@ -14,8 +14,13 @@ import siteKellyMadison
 import siteTeamSkeet
 import sitePorndoePremium
 import siteLegalPorno
+import siteMofos
+import siteTwistys
+import siteLubed
+import siteSpizoo
+import sitePrivate
 
-searchSites = [None] * 261
+searchSites = [None] * 298
 searchSites[1] = ["Blacked com","Blacked","https://www.blacked.com","https://www.blacked.com/search?q="]
 searchSites[0] = ["Blackedraw com","BlackedRaw","https://www.blackedraw.com","https://www.blackedraw.com/search?q="]
 searchSites[2] = ["Brazzers.com","Brazzers","http://www.brazzers.com","http://www.brazzers.com/search/all/?q="]
@@ -277,6 +282,44 @@ searchSites[257] = ["Scambisti Maturi","Scambisti Maturi", "https://porndoepremi
 searchSites[258] = ["STG","STG", "https://porndoepremium.com","https://porndoepremium.com/videos?keywords="]
 searchSites[259] = ["XXX Omas","XXX Omas", "https://porndoepremium.com","https://porndoepremium.com/videos?keywords="]
 searchSites[260] = ["LegalPorno","LegalPorno","https://www.legalporno.com","https://www.legalporno.com/search/?query="]
+searchSites[261] = ["Mofos","Mofos","https://www.mofos.com","https://www.mofos.com/tour/search/?q="]
+searchSites[262] = ["Ebony Sex Tapes","Ebony Sex Tapes","https://www.mofos.com","https://www.mofos.com/tour/search/?q="]
+searchSites[263] = ["Share My BF","Share My BF","https://www.mofos.com","https://www.mofos.com/tour/search/?q="]
+searchSites[264] = ["Dont Break Me","Dont Break Me","https://www.mofos.com","https://www.mofos.com/tour/search/?q="]
+searchSites[265] = ["I Know That Girl","I Know That Girl","https://www.mofos.com","https://www.mofos.com/tour/search/?q="]
+searchSites[266] = ["Lets Try Anal","Lets Try Anal","https://www.mofos.com","https://www.mofos.com/tour/search/?q="]
+searchSites[267] = ["Latina Sex Tapes","Latina Sex Tapes","https://www.mofos.com","https://www.mofos.com/tour/search/?q="]
+searchSites[268] = ["Public Pickups","Public Pickups","https://www.mofos.com","https://www.mofos.com/tour/search/?q="]
+searchSites[269] = ["Pervs On Patrol","Pervs On Patrol","https://www.mofos.com","https://www.mofos.com/tour/search/?q="]
+searchSites[270] = ["Stranded Teens","Stranded Teens","https://www.mofos.com","https://www.mofos.com/tour/search/?q="]
+searchSites[271] = ["Real Slut Party","Real Slut Party","https://www.mofos.com","https://www.mofos.com/tour/search/?q="]
+searchSites[272] = ["MOFOS Lab","MOFOS Lab","https://www.mofos.com","https://www.mofos.com/tour/search/?q="]
+searchSites[273] = ["Mofos B Sides","Mofos B Sides","https://www.mofos.com","https://www.mofos.com/tour/search/?q="]
+searchSites[274] = ["Shes A Freak","Shes A Freak","https://www.mofos.com","https://www.mofos.com/tour/search/?q="]
+searchSites[275] = ["Teens At Work","Teens At Work","https://www.mofos.com","https://www.mofos.com/tour/search/?q="]
+searchSites[276] = ["The Sex Scout","The Sex Scout","https://www.mofos.com","https://www.mofos.com/tour/search/?q="]
+searchSites[277] = ["Busted Babysitters","Busted Babysitters","https://www.mofos.com","https://www.mofos.com/tour/search/?q="]
+searchSites[278] = ["Girls Gone Pink","Girls Gone Pink","https://www.mofos.com","https://www.mofos.com/tour/search/?q="]
+searchSites[279] = ["Pornstar Vote","Pornstar Vote","https://www.mofos.com","https://www.mofos.com/tour/search/?q="]
+searchSites[280] = ["Twistys","Twistys","https://www.twistys.com","https://www.twistys.com/tour/search/list/keyword/?keyword="]
+searchSites[281] = ["When Girls Play","When Girls Play","https://www.twistys.com","https://www.twistys.com/tour/search/list/keyword/?keyword="]
+searchSites[282] = ["Mom Knows Best","Mom Knows Best","https://www.twistys.com","https://www.twistys.com/tour/search/list/keyword/?keyword="]
+searchSites[283] = ["Twistys Hard","Twistys Hard","https://www.twistys.com","https://www.twistys.com/tour/search/list/keyword/?keyword="]
+searchSites[284] = ["Lubed","Lubed","https://lubed.com","https://lubed.com/video/"]
+searchSites[285] = ["Spizoo","Spizoo","https://www.spizoo.com","https://www.spizoo.com/search.php?query="]
+searchSites[286] = ["Private","Private","https://www.private.com","https://www.private.com/search.php?query="]
+searchSites[287] = ["Anal Introductions","Anal Introductions","https://www.private.com","https://www.private.com/search.php?query="]
+searchSites[288] = ["Blacks on Sluts","Blacks on Sluts","https://www.private.com","https://www.private.com/search.php?query="]
+searchSites[289] = ["I confess Files","I confess Files","https://www.private.com","https://www.private.com/search.php?query="]
+searchSites[290] = ["Private Fetish","Private Fetish","https://www.private.com","https://www.private.com/search.php?query="]
+searchSites[291] = ["Mission Ass Possible","Mission Ass Possible","https://www.private.com","https://www.private.com/search.php?query="]
+searchSites[292] = ["Private MILFs","Private MILFs","https://www.private.com","https://www.private.com/search.php?query="]
+searchSites[293] = ["Russian Fake Agent","Russian Fake Agent","https://www.private.com","https://www.private.com/search.php?query="]
+searchSites[294] = ["Russian Teen Ass","Russian Teen Ass","https://www.private.com","https://www.private.com/search.php?query="]
+searchSites[295] = ["Sex on the beach","Sex on the beach","https://www.private.com","https://www.private.com/search.php?query="]
+searchSites[296] = ["Private Stars","Private Stars","https://www.private.com","https://www.private.com/search.php?query="]
+searchSites[297] = ["Tight and Teen","Tight and Teen","https://www.private.com","https://www.private.com/search.php?query="]
+
 
 def getSearchBaseURL(siteID):
     return searchSites[siteID][2]

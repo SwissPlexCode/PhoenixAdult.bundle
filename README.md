@@ -18,7 +18,7 @@ Currently the features of this metadata agent are:
 
 ## File Naming
 
-**Plex Video Files Scanner needs to be set as the library scanner for best results.
+**Plex Video Files Scanner needs to be set as the library scanner for best results.**
 
 For best results, file names should follow the layout below
 
@@ -373,6 +373,43 @@ If you would like to send a donation my way, which are greatly appreciated, you 
 #### - Tushy *Title Search *Date/Actor Search
 #### - Vixen *Title Search *Date/Actor Search
 #### - X-Art *Title Search
+#### - Mofos *Title Search *Date/Actor Search
+-   Ebony Sex Tapes
+-   Share My BF
+-   Dont Break Me
+-   I Know That Girl
+-   Lets Try Anal
+-   Latina Sex Tapes
+-   Public Pickups
+-   Pervs On Patrol
+-   Stranded Teens
+-   Real Slut Party
+-   MOFOS Lab
+-   Mofos B Sides
+-   Shes A Freak
+-   Teens At Work
+-   The Sex Scout
+-   Busted Babysitters
+-   Girls Gone Pink
+-   Pornstar Vote
+#### - Twistys *Title Search *Date/Actor Search
+-   When Girls Play
+-   Mom Knows Best
+-   Twistys Hard
+#### - Lubed * Only the exact name /!\
+#### - Spizoo *Title Search *Date/Actor Search
+#### - Private *Title Search 
+-   Anal Introductions
+-   Blacks on Sluts
+-   I confess Files
+-   Private Fetish
+-   Mission Ass Possible
+-   Private MILFs
+-   Russian Fake Agent
+-   Russian Teen Ass
+-   Sex on the beach
+-   Private Stars
+-   Tight and Teen
 
 
 
