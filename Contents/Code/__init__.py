@@ -101,6 +101,12 @@ class PhoenixAdultAgent(Agent.Movies):
             if siteNum == 261:
                 if searchAll or (searchSiteID >= 261 and searchSiteID <= 279):
                     results = PAsearchSites.siteMofos.search(results,encodedTitle,title,searchTitle,siteNum,lang,searchByDateActor,searchDate, searchAll, searchSiteID)
+            ###############
+            ## Babes
+            ###############
+            if siteNum == 316:
+                if searchAll or (searchSiteID >= 316 and searchSiteID <= 321):
+                    results = PAsearchSites.siteBabes.search(results,encodedTitle,title,searchTitle,siteNum,lang,searchByDateActor,searchDate, searchAll, searchSiteID)
 
             ###############
             ## Twistys
@@ -117,6 +123,13 @@ class PhoenixAdultAgent(Agent.Movies):
                     results = PAsearchSites.sitePrivate.search(results,encodedTitle,title,searchTitle,siteNum,lang,searchByDateActor,searchDate, searchAll, searchSiteID)
 
             ###############
+            ## NubilesPorn
+            ###############
+            if siteNum == 298:
+                if searchAll or searchSiteID == 215 or (searchSiteID >= 298 and searchSiteID <= 310):
+                    results = PAsearchSites.siteNubilesPorn.search(results,encodedTitle,title,searchTitle,siteNum,lang,searchByDateActor,searchDate, searchAll, searchSiteID)
+
+            ###############
             ## Vixen
             ###############
             if siteNum == 52:
@@ -126,8 +139,8 @@ class PhoenixAdultAgent(Agent.Movies):
             ###############
             ## Lubed
             ###############
-            if siteNum == 284:
-                if searchAll or searchSiteID == 284:
+            if siteNum == 311:
+                if searchAll or (searchSiteID >= 311 and searchSiteID <= 316):
                     results = PAsearchSites.siteLubed.search(results,encodedTitle,title,searchTitle,siteNum,lang,searchByDateActor,searchDate, searchAll, searchSiteID)
 
             ###############
@@ -211,7 +224,7 @@ class PhoenixAdultAgent(Agent.Movies):
             ## Team Skeet
             ###############
             if siteNum == 187:
-                if searchAll or (searchSiteID >= 187 and searchSiteID <= 215):
+                if searchAll or searchSiteID == 311 or (searchSiteID >= 187 and searchSiteID <= 214):
                     results = PAsearchSites.siteTeamSkeet.search(results,encodedTitle,title,searchTitle,siteNum,lang,searchByDateActor,searchDate, searchAll, searchSiteID)
 
             ###############
@@ -283,6 +296,14 @@ class PhoenixAdultAgent(Agent.Movies):
 
         ##############################################################
         ##                                                          ##
+        ##   Babes			                                        ##
+        ##                                                          ##
+        ##############################################################
+        if siteID >= 316 and siteID <= 321:
+            metadata = PAsearchSites.siteBabes.update(metadata,siteID,movieGenres)
+
+        ##############################################################
+        ##                                                          ##
         ##   Twistys		                                        ##
         ##                                                          ##
         ##############################################################
@@ -299,6 +320,14 @@ class PhoenixAdultAgent(Agent.Movies):
 
         ##############################################################
         ##                                                          ##
+        ##   NubilesPorn		                                        ##
+        ##                                                          ##
+        ##############################################################
+        if siteID == 215 or (siteID >= 298 and siteID <= 310):
+            metadata = PAsearchSites.siteNubilesPorn.update(metadata,siteID,movieGenres)
+
+        ##############################################################
+        ##                                                          ##
         ##   Vixen                                                  ##
         ##                                                          ##
         ##############################################################
@@ -310,7 +339,7 @@ class PhoenixAdultAgent(Agent.Movies):
         ##   Lubed                                                  ##
         ##                                                          ##
         ##############################################################
-        if siteID == 284:
+        if siteID >= 311 and siteID <= 316:
             metadata = PAsearchSites.siteLubed.update(metadata,siteID,movieGenres)
 
         ##############################################################
@@ -401,7 +430,7 @@ class PhoenixAdultAgent(Agent.Movies):
         ##   TeamSkeet                                              ##
         ##                                                          ##
         ##############################################################
-        if siteID >= 187 and siteID <= 215:
+        if siteID == 311 or (siteID >= 187 and siteID <= 214):
             metadata = PAsearchSites.siteTeamSkeet.update(metadata,siteID,movieGenres)
 
         ##############################################################

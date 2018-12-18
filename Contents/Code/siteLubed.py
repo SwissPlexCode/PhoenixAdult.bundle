@@ -1,13 +1,16 @@
 import PAsearchSites
 import PAgenres
 def search(results,encodedTitle,title,searchTitle,siteNum,lang,searchByDateActor,searchDate,searchAll,searchSiteID):
-    url = 'https://lubed.com/video/' + searchTitle.lower().replace(" ","-")
+    searchBaseURL = PAsearchSites.getSearchBaseURL(searchSiteID)
+    searchUrl = PAsearchSites.getSearchSearchURL(searchSiteID)
+    searchSiteName = PAsearchSites.getSearchSiteName(searchSiteID)
+    url = searchUrl + searchTitle.lower().replace(" ","-")
     searchResults = HTML.ElementFromURL(url)
 
     searchResult = searchResults.xpath('//div[@class="details col-sm-6 col-md-3 order-md-2 mb-2"]')[0]
     titleNoFormatting = searchResult.xpath('.//div[@class="row"]//div[@class="col-6 col-md-12"]//h1')[0].text_content()
     Log("Result Title: " + titleNoFormatting)
-    cur = "/video/" + searchTitle.lower().replace(" ","-")
+    cur = searchBaseURL + "/video/" + searchTitle.lower().replace(" ","-")
     curID = cur.replace('/','_')
     Log("ID: " + curID)
     releasedDate = searchResult.xpath('.//div[@class="row"]//div[@class="col-6 col-md-12"]//p')[0].text_content()
@@ -17,30 +20,38 @@ def search(results,encodedTitle,title,searchTitle,siteNum,lang,searchByDateActor
     Log("CurID" + str(curID))
     lowerResultTitle = str(titleNoFormatting).lower()
 
-    titleNoFormatting = girlName + " - " + titleNoFormatting + " [Lubed, " + releasedDate +"]"
+    titleNoFormatting = girlName + " - " + titleNoFormatting + " ["+searchSiteName+", " + releasedDate +"]"
     score = 100
-    results.Append(MetadataSearchResult(id = curID + "|" + str(siteNum), name = titleNoFormatting, score = score, lang = lang))
+    results.Append(MetadataSearchResult(id=curID + "|" + str(searchSiteID) + "|" + searchSiteName.replace(' ', '_'),name=titleNoFormatting, score=score, lang=lang))
     return results
 
 
 def update(metadata, siteID, movieGenres):
     temp = str(metadata.id).split("|")[0].replace('_', '/')
+    site = str(metadata.id).split("|")[2].replace('_', ' ')
+    searchBaseURL = PAsearchSites.getSearchBaseURL(int(str(metadata.id).split("|")[1]))
 
-    url = PAsearchSites.getSearchBaseURL(siteID) + temp
+    url = temp
     Log('url :' + url)
     detailsPageElements = HTML.ElementFromURL(url)
 
-    metadata.studio = "Lubed"
+    metadata.studio = site
 
     # Summary
     # paragraph = detailsPageElements.xpath('//p[@class="desc"]')[0].text_content()
     # paragraph = paragraph.replace('&13;', '').strip(' \t\n\r"').replace('\n', '').replace('  ', '') + "\n\n"
     # metadata.summary = paragraph[:-10]
-    tagline = "Lubed"
+    tagline = site
     metadata.collections.clear()
     metadata.tagline = tagline
     metadata.collections.add(tagline)
     metadata.title = detailsPageElements.xpath('//div[@class="details col-sm-6 col-md-3 order-md-2 mb-2"]//div[@class="row"]//div[@class="col-6 col-md-12"]//h1')[0].text_content()
+
+    # Date
+    date = detailsPageElements.xpath('//div[@class="details col-sm-6 col-md-3 order-md-2 mb-2"]//div[@class="row"]//div[@class="col-6 col-md-12"]//p')[0].text_content()
+    date_object = datetime.strptime(date, '%B %d, %Y')
+    metadata.originally_available_at = date_object
+    metadata.year = metadata.originally_available_at.year
 
     # Genres
     movieGenres.clearGenres()
@@ -55,7 +66,7 @@ def update(metadata, siteID, movieGenres):
         for actorLink in actors:
             role = metadata.roles.new()
 
-            actorPageURL = 'https://lubed.com' + actorLink.get("href")
+            actorPageURL = searchBaseURL + actorLink.get("href")
             actorPage = HTML.ElementFromURL(actorPageURL)
             actorName = actorPage.xpath('//div[@class="col-md-3 order-md-2 mb-2 details"]//h1')[0].text_content()
             titleActors = titleActors + actorName + " & "

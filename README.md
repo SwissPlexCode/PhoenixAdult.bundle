@@ -75,12 +75,14 @@ If you are doing a manual search in Plex and you wish to only search a single si
 
 No real error checking is implemented. It was quickly tested on 10+ titles per site before the initial posting.
 
-** Plex Video Files Scanner needs to be set as the library scanner for best results. **
+**Plex Video Files Scanner needs to be set as the library scanner for best results.**
 
 ## Known Limitations
 - Teen Fidelity, Porn Fidelity, Kelly Madison, and X-Art will sometimes not pull metadata when many files from that site are being added at once. This is a limitation on the number of requests to their website. Just go back to that video and hit Refresh Metadata (or Match if it didn't make it that far) and everything should then be added.
 
 - LegalPorno does not have high quality pictures to be used for metadata.
+
+- Lubed does'nt have a search page, so the name muste be exact.
 
 ## Donations
 If you would like to send a donation my way, which are greatly appreciated, you can do so a few different ways.
@@ -397,6 +399,11 @@ If you would like to send a donation my way, which are greatly appreciated, you 
 -   Mom Knows Best
 -   Twistys Hard
 #### - Lubed * Only the exact name /!\
+#### - Tiny 4k * Only the exact name /!\
+#### - Cum 4k * Only the exact name /!\
+#### - Exotic 4k * Only the exact name /!\
+#### - POVD * Only the exact name /!\
+#### - Passion HD * Only the exact name /!\
 #### - Spizoo *Title Search *Date/Actor Search
 #### - Private *Title Search 
 -   Anal Introductions
@@ -410,6 +417,23 @@ If you would like to send a donation my way, which are greatly appreciated, you 
 -   Sex on the beach
 -   Private Stars
 -   Tight and Teen
+#### - Babes *Title Search 
+-   Black is Better
+-   Elegant Anal
+-   Office Obsession
+-   Step Mom Lessons
+-   Babes Unleashed
+#### - Nubiles Porn *Title Search 
+-   Nubiles Casting
+-   Petite Ballerinas Fucked
+-   Nubiles Unscripted
+-   PetiteHDPorn
+-   Teacher Fucks Teens
+-   That Sitcom Show
+-   Bad Teens Punished
+-   My Family Pies
+-   NF Busty
+-   Princess Cum
 
 
 
